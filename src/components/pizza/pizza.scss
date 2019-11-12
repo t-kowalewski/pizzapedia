@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.image-container {
+  img {
+    width: 100%;
+    display: block;
+    min-height: 13rem;
+  }
+}

@@ -1,0 +1,20 @@
+// Colors
+// https://colorhunt.co/palette/161876
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$mainBlack: #211717;
+$mainDarkOrange: #a34a28;
+$mainLightOrange: #f58b54;
+$mainGray: #dfddc7;
+
+
+body {
+  font-family: 'Vesper Libre', serif;
+  background: $mainGray;
+  color: $mainBlack;
+}
