@@ -85,7 +85,7 @@ const pizzaData = [
   },
   {
     id: 13,
-    pizza: 'Vegetariana / Verdure / Ortolana',
+    pizza: 'Vegetariana',
     img: './img/vegetariana.jpg',
     pronunciation: '[veh-jeh-tah-reeAH-nah]',
     ingredients: 'tomato sauce, mozzarella and veggies. In every pizzeria they use different vegetables: aubergines, courgettes, peppers, spinach, peas, carrots and so on'
