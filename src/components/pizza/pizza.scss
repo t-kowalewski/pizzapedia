@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 .pizza {
-  background: $mainLightOrange;
+  background: $mainDarkOrange;
   margin: 2rem 0;
   img {
     width: 100%;
@@ -19,7 +19,6 @@
   padding: 1rem 0.5rem;
   h2 {
     text-transform: uppercase;
-    // color: $mainDarkOrange;
     margin-bottom: 0.6rem;
   }
   h4 span {
@@ -29,7 +28,6 @@
   
   .close-btn {
     position: absolute;
-    // display: block;
     top: 5%;
     right: 5%;
     font-size: 1.5rem;

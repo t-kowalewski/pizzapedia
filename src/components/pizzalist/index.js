@@ -4,16 +4,21 @@ import './pizzalist.scss';
 import pizzaData from '../../pizzaData';
 
 export default class PizzaList extends Component {
+  // Our state - pizza data
   state = {
     pizzas: pizzaData
   }
 
+  // Function will return new list of pizzas. If both ids are the same - pizza will not be in the new list
   removePizza = (id) => {
-    console.log(id);
+    const {pizzas} = this.state;
+    const sortedPizzas = pizzas.filter((pizza) => pizza.id !== id);
+    this.setState({
+      pizzas: sortedPizzas
+    });
   }
 
   render() {
-    // console.log(this.state.pizzas)  
     const { pizzas } = this.state
 
     return (

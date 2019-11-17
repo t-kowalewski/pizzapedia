@@ -19,7 +19,7 @@ export default class Pizza extends Component {
   }
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { id, img, ingredients, pizza, pronunciation } = this.props.pizza;
     const { removePizza } = this.props;
 
@@ -40,7 +40,7 @@ export default class Pizza extends Component {
           {/* JSX condition for <p> */}
           {this.state.showIngredients && <p>{ingredients}</p>}
 
-          <span className="close-btn"><i className="far fa-times-circle"></i></span>
+          <span className="close-btn" onClick={() => removePizza(id)}><i className="far fa-times-circle"></i></span>
         </div>
       </article>
     )
